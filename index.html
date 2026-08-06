@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>THE ONE% AI SIGNAL XAUUSD</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>THE ONE% AI</h1>
+        <p>AI SIGNAL ENGINE • XAUUSD ONLY</p>
+    </div>
+
+
+
+    <!-- MARKET CARD -->
+    <div class="card">
+
+        <div class="market-box">
+
+            <div>
+                <div class="symbol">
+                    XAUUSD
+                </div>
+
+                <small>
+                    Gold / US Dollar
+                </small>
+            </div>
+
+
+            <div class="price" id="price">
+                Loading...
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- SIGNAL CARD -->
+    <div class="card signal-card">
+
+        <div class="signal-title">
+            AI SIGNAL
+        </div>
+
+    <!-- BUTTON -->
+
+    <button id="analyzeBtn">
+
+        MARKET ANALYZE
+
+    </button>
+
+
+        <div id="signalBadge" class="signal hold">
+            WAIT
+        </div>
+
+
+        <div class="confidence">
+
+            Confidence:
+            <span id="confidence">
+                0%
+            </span>
+
+        </div>
+
+
+        <div class="progress">
+
+            <div 
+            id="confidenceBar"
+            class="progress-bar"
+            style="width:0%">
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- CHART -->
+    <div class="card">
+
+        <h3>
+            XAUUSD CHART
+        </h3>
+
+        <div id="chart" class="chart-box">
+
+            Chart Loading...
+
+        </div>
+
+    </div>
+
+
+    <!-- TRADE PLAN -->
+
+    <div class="card">
+
+        <h3>
+            TRADE PLAN
+        </h3>
+
+
+        <div class="analysis-item">
+
+            <span>
+                Entry
+            </span>
+
+            <b id="entry">
+                -
+            </b>
+
+        </div>
+
+
+        <div class="analysis-item">
+
+            <span>
+                Stop Loss
+            </span>
+
+            <b id="sl">
+                -
+            </b>
+
+        </div>
+
+
+        <div class="analysis-item">
+
+            <span>
+                Take Profit
+            </span>
+
+            <b id="tp">
+                -
+            </b>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- AI RESULT -->
+
+    <div class="card">
+
+        <h3>
+            AI ANALYSIS
+        </h3>
+
+
+        <div class="analysis-item">
+
+            <span>
+                Trend
+            </span>
+
+            <b id="trend">
+                -
+            </b>
+
+        </div>
+
+
+
+        <div class="analysis-item">
+
+            <span>
+                Structure
+            </span>
+
+            <b id="structure">
+                -
+            </b>
+
+        </div>
+
+
+
+        <div class="analysis-item">
+
+            <span>
+                Liquidity
+            </span>
+
+            <b id="liquidity">
+                -
+            </b>
+
+        </div>
+
+
+
+        <div class="analysis-item">
+
+            <span>
+                Order Block
+            </span>
+
+            <b id="orderblock">
+                -
+            </b>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- HISTORY -->
+
+    <div class="card">
+
+        <h3>
+            SIGNAL HISTORY
+        </h3>
+
+
+        <div id="historyList">
+
+            No signal history
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- NOTIFICATION -->
+
+    <div class="card">
+
+        <h3>
+            NOTIFICATION
+        </h3>
+
+
+        <div id="notificationList">
+
+            No notification
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="footer">
+
+        THE ONE% AI © 2026  
+        <br>
+        XAUUSD Smart Money Analysis
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<!-- CORE -->
+
+<script src="config.js"></script>
+
+<script src="market.js"></script>
+
+<script src="chart.js"></script>
+
+
+<!-- AI ENGINE -->
+
+<script src="ai/ema.js"></script>
+<script src="ai/swing.js"></script>
+<script src="ai/bos.js"></script>
+<script src="ai/choch.js"></script>
+<script src="ai/fvg.js"></script>
+<script src="ai/orderblock.js"></script>
+<script src="ai/liquidity.js"></script>
+<script src="ai/signal.js"></script>
+
+
+<!-- SYSTEM -->
+
+<script src="history.js"></script>
+<script src="notification.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
